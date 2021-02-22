@@ -1,9 +1,3 @@
-/**
-* Template Name: Mamba - v2.5.1
-* Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 !(function($) {
   "use strict";
 
@@ -173,16 +167,16 @@
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item',
+    var ratedHotelIsotope = $('.ratedHotel-container').isotope({
+      itemSelector: '.ratedHotel-item',
       layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
+    $('#ratedHotel-flters li').on('click', function() {
+      $("#ratedHotel-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
-      portfolioIsotope.isotope({
+      ratedHotelIsotope.isotope({
         filter: $(this).data('filter')
       });
       aos_init();
@@ -194,8 +188,8 @@
     });
   });
 
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
+  // ratedHotel details carousel
+  $(".ratedHotel-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
