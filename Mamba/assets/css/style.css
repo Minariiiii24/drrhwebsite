@@ -881,20 +881,20 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Portfolio
+# Our Rated Hotels ni Zi: Change niyo lahat ng portfolio ng ratedHotel para gumana yung css sa rated hotel part thanks!;
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.ratedHotel .ratedHotel-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.ratedHotel #ratedHotel-flters {
   padding: 0;
   margin: 0 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-.portfolio #portfolio-flters li {
+.ratedHotel #ratedHotel-flters li {
   cursor: pointer;
   margin: 0 15px 15px 0;
   display: inline-block;
@@ -909,27 +909,27 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.ratedHotel #ratedHotel-flters li:hover, .ratedHotel #ratedHotel-flters li.filter-active {
   background: #428bca;
   color: #fff;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.ratedHotel #ratedHotel-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.ratedHotel .ratedHotel-wrap {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
   position: relative;
   overflow: hidden;
 }
 
-.portfolio .portfolio-wrap img {
+.ratedHotel .ratedHotel-wrap img {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.ratedHotel .ratedHotel-wrap .ratedHotel-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -946,19 +946,19 @@ section {
   padding-bottom: 30px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.ratedHotel .ratedHotel-wrap .ratedHotel-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.ratedHotel .ratedHotel-wrap .ratedHotel-info p {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
 }
 
-.portfolio .portfolio-wrap .portfolio-info a {
+.ratedHotel .ratedHotel-wrap .ratedHotel-info a {
   color: #428bca;
   margin: 0 4px;
   font-size: 18px;
@@ -973,46 +973,46 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info a:hover {
+.ratedHotel .ratedHotel-wrap .ratedHotel-info a:hover {
   background: #428bca;
   color: #fff;
 }
 
-.portfolio .portfolio-wrap:hover {
+.ratedHotel .ratedHotel-wrap:hover {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.ratedHotel .ratedHotel-wrap:hover .ratedHotel-info {
   opacity: 1;
   padding-bottom: 0;
 }
 
-.portfolio .portfolio-wrap:hover img {
+.ratedHotel .ratedHotel-wrap:hover img {
   transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# ratedHotel Details ZIBOI
 --------------------------------------------------------------*/
-.portfolio-details {
+.ratedHotel-details {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-details-container {
+.ratedHotel-details .ratedHotel-details-container {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-carousel {
+.ratedHotel-details .ratedHotel-details-carousel {
   position: relative;
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.ratedHotel-details .ratedHotel-details-carousel .owl-nav, .ratedHotel-details .ratedHotel-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot {
+.ratedHotel-details .ratedHotel-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 10px 0 0;
   width: 12px;
@@ -1021,11 +1021,11 @@ section {
   background-color: #ddd !important;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
+.ratedHotel-details .ratedHotel-details-carousel .owl-dot.active {
   background-color: #428bca !important;
 }
 
-.portfolio-details .portfolio-info {
+.ratedHotel-details .ratedHotel-info {
   padding: 30px;
   position: absolute;
   right: 0;
@@ -1035,7 +1035,7 @@ section {
   z-index: 2;
 }
 
-.portfolio-details .portfolio-info h3 {
+.ratedHotel-details .ratedHotel-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1043,40 +1043,41 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.ratedHotel-details .ratedHotel-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.ratedHotel-details .ratedHotel-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.ratedHotel-details .ratedHotel-description {
   padding-top: 50px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.ratedHotel-details .ratedHotel-description h2 {
   width: 50%;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.ratedHotel-details .ratedHotel-description p {
   padding: 0 0 0 0;
 }
 
 @media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
+  .ratedHotel-details .ratedHotel-description h2 {
     width: 100%;
   }
-  .portfolio-details .portfolio-info {
+  .ratedHotel-details .ratedHotel-info {
     position: static;
     margin-top: 30px;
   }
 }
+/*----End -----*/
 
 /*--------------------------------------------------------------
 # Our Team
