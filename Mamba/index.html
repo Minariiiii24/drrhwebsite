@@ -75,9 +75,9 @@
               </li>
             </ul>
           </li>
-          <li><a href="">Assessment</a></li>
-          <li><a href="">FAQ</a></li>
-          <li><a href="">News</a></li>
+          <li><a href="#assessment">Assessment</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#news">News</a></li>
           <li><a href="#contact">Contact Us</a></li>
           <li><a href="#" class="signin"><i class="icofont-ui-user"></i></a>
         </ul>
@@ -708,6 +708,277 @@
 </div>
 <!--|-|-|-|-|-|-|-|-|-|- End Partners ni Duane -|-|-|-|-|-|-|-|-|-|-->
 
+	      <!--|-|-|-|-|-|-|-|-|-|- Assessment ni Zi (Add nyo nlng gawa nyo based sa order) -|-|-|-|-|-|-|-|-|-|-->
+     <section id="assessment" class="assessment">
+          <div class="container">
+          <style>
+        div {
+          text-align: justify;
+          text-justify: inter-word;
+          }
+      </style>
+          <div class="col-lg-12 d-flex flex-column justify-content-center about-content">
+          
+            <div class="section-title">
+              <h2> Assessment </h2>
+            </div>
+
+            <div class="section-title">
+                <div class="tab">
+                  <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'Hotel Information')">Hotel Information</button>
+                  <button class="tablinks" onclick="openCity(event, 'APARM')">Asset Protection and Risk Management</button>
+                  <button class="tablinks" onclick="openCity(event, 'Enterprise Con')">Enterprise Continuity</button>
+                  <button class="tablinks" onclick="openCity(event, 'DRR')">Disaster Risk Reduction</button>
+                  <button class="tablinks" onclick="openCity(event, 'COM')">Crisis and Opportunity Management</button>
+                  <button class="tablinks" onclick="openCity(event, 'Resilience Communication')">Resilience Communication</button>
+                  <button class="tablinks" onclick="openCity(event, 'FStep')">Final Step</button>
+                </div>
+
+                <!-- HOTEL INFORMATION -->
+                <div id="Hotel Information" class="tabcontent">
+                  <form>
+
+                    <br><h3> Hotel Profile </h3><hr><br>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Hotel Name</label>
+                      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Example Hotel">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Type of Hotel</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Privately Owned</option>
+                        <option>Corporate Owned</option>
+                        <option>Foreign Corporation</option>
+                        <option>Others</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Example select</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>2-Star</option>
+                        <option>3-Star</option>
+                        <option>4-Star</option>
+                        <option>5-Star</option>
+                        <option>Unrated</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Owner / Corporate Entity</label>
+                      <input type="owner" class="form-control" id="exampleFormControlInput1" placeholder="Hotel Owner / Corporate Entity">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Affiliations</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>None</option>
+                        <option>H.R.A.P</option>
+                        <option>D.O.T</option>
+                        <option>P.H.O.A</option>
+                        <option>Others</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Years in Operation</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Less than a year</option>
+                        <option>1-5 years</option>
+                        <option>6-10 years</option>
+                        <option>11-20 years</option>
+                        <option>20 years or more</option>
+                      </select>
+                    </div>
+                    
+                </form>
+
+                <!-- next form -->
+
+                 <form>
+
+                    <br><br><h3> Contact Person </h3><hr><br>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Assessor</label>
+                      <input type="doingassessment" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Designation</label>
+                      <input type="designation" class="form-control" id="exampleFormControlInput1" placeholder="Location">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Contact Number</label>
+                      <input type="connum" class="form-control" id="exampleFormControlInput1" placeholder="0912-3456-780">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Date of Assessment</label><br>
+                      <input type='date' id='hasta' value='<?php echo date('Y-m-d');?> 
+                    </div>
+
+                </form>
+
+                  
+
+                </div>
+
+                <!-- APARM -->
+                <div id="APARM" class="tabcontent">
+                <form>
+                    <br><h3> Asset Protection </h3><hr><br>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Do you have an asset protection plan in place?</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>---</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                      </select>
+                    </div>
+                </form>
+
+                <!-- Next form-->
+
+                <form>
+                    <br><br><h3> Risk Management </h3><hr><br>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Do you have a risk management plan in place?</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>---</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                      </select>
+                    </div>
+                </form>
+
+                </div>
+
+                <!-- ENT CONT -->
+                <div id="Enterprise Con" class="tabcontent">
+                  <form>
+                    <br><h3> Business Continuity Plan </h3><hr><br>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Do you have a business continuity plan in place?</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>---</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                      </select>
+                    </div>
+                  </form>
+                </div>
+
+                <!-- DRR -->
+                <div id="DRR" class="tabcontent">
+                  <form>
+                    <br><h3> Disaster Risk Reduction </h3><hr><br>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Do you have a disaster reduction risk plan in place?</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>---</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                      </select>
+                    </div>
+                  </form> 
+                </div>
+
+                <!-- COM -->
+                <div id="COM" class="tabcontent">
+                  <form>
+                    <br><h3> Crisis Management </h3><hr><br>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Do you have a crisis management plan in place?</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>---</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                      </select>
+                    </div>
+                  </form>
+
+                  <!-- Next form-->
+
+                <form>
+                    <br><br><h3> Opportunity Management </h3><hr><br>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Do you have an opportunity management plan in place?</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>---</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                      </select>
+                    </div>
+                </form>
+
+                </div>
+
+                <!-- RES COM -->
+                <div id="Resilience Communication" class="tabcontent">
+                  <form>
+                    <br><h3> Risk Communication </h3><hr><br>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Do you have a risk communication plan in place?</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>---</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                      </select>
+                    </div>
+                  </form>
+
+                  <!-- Next form-->
+
+                  <form>
+                      <br><br><h3> Crisis Communication </h3><hr><br>
+
+                      <div class="form-group">
+                        <label for="exampleFormControlSelect1">Do you have a crisis communication plan in place?</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>---</option>
+                          <option>Yes</option>
+                          <option>No</option>
+                        </select>
+                      </div>
+                  </form>
+                </div>
+
+                <!-- FSTEP -->
+                <div id="FStep" class="tabcontent">
+
+                  <form>
+                        <br><h3>Date Submitted:  <span id="datetime"></span></h3><script>
+                        var dt = new Date();
+                        document.getElementById("datetime").innerHTML= dt.toLocaleString();</script>    
+                      <hr>
+                  </form>
+
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">I hereby certify that the given informations are true and correct to the best of my knowledge and the documents submitted were not falsified in any way.</label><br><br>
+                  </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--|-|-|-|-|-|-|-|-|-|- End of Assessment ni Zi (Add nyo nlng gawa nyo based sa order) -|-|-|-|-|-|-|-|-|-|-->
+        
+	      
+	      
 	      
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
@@ -1036,6 +1307,24 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+<!-- ========== FORMS ========== -->
+  <script> 
+        document.getElementById("defaultOpen").click();
+        function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
 
 </body>
 
