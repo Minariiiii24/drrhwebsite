@@ -1523,3 +1523,46 @@ section {
 }
 
 /* ===========================================CSS for tabs=========================================== */
+
+/* ===========================================CSS for Risk Profiling=========================================== */
+.table-responsive{
+  min-height: .01%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table-border{
+  border: 1px solid #ddd;
+}
+
+.table-border>thead>tr>td, .table-border>thead>tr>th {
+  border-bottom-width: 2px;
+}
+
+.table>thead>tr>th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+.table>thead>tr>th.info {
+  background-color: #ecf5fc;
+}
+
+.txt-center{
+  text-align: center;
+}
+
+
+
