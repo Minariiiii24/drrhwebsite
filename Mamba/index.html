@@ -28,7 +28,234 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+<script>
+    //RISK PROFILING
+    //table A
+     function hazard_chckbox_grndshaking(geological_hazards_ground_shaking){
 
+     var inp = document.getElementById("geological_hazards_ground_shaking_rating");
+     var inp2 = document.getElementById("geological_hazards_ground_shaking_rating_");
+     inp.disabled = geological_hazards_ground_shaking.checked ? false : true;
+     inp2.disabled = geological_hazards_ground_shaking.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+     function hazard_chckbox_liquifaction(geological_hazards_liquifaction){
+
+     var inp = document.getElementById("geological_hazards_liquifaction_rating");
+     var inp2 = document.getElementById("geological_hazards_liquifaction_rating_");
+     inp.disabled = geological_hazards_liquifaction.checked ? false : true;
+     inp2.disabled = geological_hazards_liquifaction.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+  function hazard_chckbox_grndrupture(geological_hazards_ground_rupture){
+
+     var inp = document.getElementById("geological_hazards_ground_rupture_rating");
+     var inp2 = document.getElementById("geological_hazards_ground_rupture_rating_");
+     inp.disabled = geological_hazards_ground_rupture.checked ? false : true;
+     inp2.disabled = geological_hazards_ground_rupture.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+  function hazard_chckbox_tsunami(geological_hazards_tsunami){
+
+     var inp = document.getElementById("geological_hazards_tsunami_rating");
+     var inp2 = document.getElementById("geological_hazards_tsunami_rating_");
+     inp.disabled = geological_hazards_tsunami.checked ? false : true;
+     inp2.disabled = geological_hazards_tsunami.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+  function hazard_chckbox_landslides(geological_hazards_landslides){
+
+     var inp = document.getElementById("geological_hazards_landslides_rating");
+     var inp2 = document.getElementById("geological_hazards_landslides_rating_");
+     inp.disabled = geological_hazards_landslides.checked ? false : true;
+     inp2.disabled = geological_hazards_landslides.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+    function hazard_chckbox_vlcanichazard(geological_hazards_volcanic_hazards){
+
+     var inp = document.getElementById("geological_hazards_volcanic_hazards_rating");
+     var inp2 = document.getElementById("geological_hazards_volcanic_hazards_rating_");
+     inp.disabled = geological_hazards_volcanic_hazards.checked ? false : true;
+     inp2.disabled = geological_hazards_volcanic_hazards.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+  
+
+  //table B
+  function hazard_chckbox_trpicalcyclone(hydrometeorological_hazards_tropical_cyclone){
+
+     var inp = document.getElementById("hydrometeorological_hazards_tropical_cyclone_rating");
+     var inp2 = document.getElementById("hydrometeorological_hazards_tropical_cyclone_rating_");
+     inp.disabled = hydrometeorological_hazards_tropical_cyclone.checked ? false : true;
+     inp2.disabled = hydrometeorological_hazards_tropical_cyclone.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+     function hazard_chckbox_floods(hydrometeorological_hazards_floods){
+
+     var inp = document.getElementById("hydrometeorological_hazards_floods_rating");
+     var inp2 = document.getElementById("hydrometeorological_hazards_floods_rating_");
+     inp.disabled = hydrometeorological_hazards_floods.checked ? false : true;
+     inp2.disabled = hydrometeorological_hazards_floods.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+  function hazard_chckbox_strmsurge(hydrometeorological_hazards_storm_surge){
+
+     var inp = document.getElementById("hydrometeorological_hazards_storm_surge_rating");
+     var inp2 = document.getElementById("hydrometeorological_hazards_storm_surge_rating_");
+     inp.disabled = hydrometeorological_hazards_storm_surge.checked ? false : true;
+     inp2.disabled = hydrometeorological_hazards_storm_surge.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+  function hazard_chckbox_rainlndslide(hydrometeorological_hazards_rain_landslide){
+
+     var inp = document.getElementById("hydrometeorological_hazards_rain_landslide_rating");
+     var inp2 = document.getElementById("hydrometeorological_hazards_rain_landslide_rating_");
+     inp.disabled = hydrometeorological_hazards_rain_landslide.checked ? false : true;
+     inp2.disabled = hydrometeorological_hazards_rain_landslide.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+  //table C
+    function hazard_chckbox_terrorism(manmade_hazards_terrorism){
+
+     var inp = document.getElementById("manmade_hazards_terrorism_rating");
+     var inp2 = document.getElementById("manmade_hazards_terrorism_rating_");
+     inp.disabled = manmade_hazards_terrorism.checked ? false : true;
+     inp2.disabled = manmade_hazards_terrorism.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+     function hazard_chckbox_civil_disturbance(manmade_hazards_civil_disturbance){
+
+     var inp = document.getElementById("manmade_hazards_civil_disturbance_rating");
+     var inp2 = document.getElementById("manmade_hazards_civil_disturbance_rating_");
+     inp.disabled = manmade_hazards_civil_disturbance.checked ? false : true;
+     inp2.disabled = manmade_hazards_civil_disturbance.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+  function hazard_chckbox_cyberattk(manmade_hazards_cyber_attk){
+
+     var inp = document.getElementById("manmade_hazards_cyber_attk_rating");
+     var inp2 = document.getElementById("manmade_hazards_cyber_attk_rating_");
+     inp.disabled = manmade_hazards_cyber_attk.checked ? false : true;
+     inp2.disabled = manmade_hazards_cyber_attk.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+  function hazard_chckbox_hazardousmaterial(manmade_hazards_hazardous_material){
+
+     var inp = document.getElementById("manmade_hazards_hazardous_material_rating");
+     var inp2 = document.getElementById("manmade_hazards_hazardous_material_rating_");
+     inp.disabled = manmade_hazards_hazardous_material.checked ? false : true;
+     inp2.disabled = manmade_hazards_hazardous_material.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+    function hazard_chckbox_chemspill(manmade_hazards_chemical_spill){
+
+     var inp = document.getElementById("manmade_hazards_chemical_spill_rating");
+     var inp2 = document.getElementById("manmade_hazards_chemical_spill_rating_");
+     inp.disabled = manmade_hazards_chemical_spill.checked ? false : true;
+     inp2.disabled = manmade_hazards_chemical_spill.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+    function hazard_chckbox_oilspill(manmade_hazards_oil_spill){
+
+     var inp = document.getElementById("manmade_hazards_oil_spill_rating");
+     var inp2 = document.getElementById("manmade_hazards_oil_spill_rating_");
+     inp.disabled = manmade_hazards_oil_spill.checked ? false : true;
+     inp2.disabled = manmade_hazards_oil_spill.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+      function hazard_chckbox_gasleak(manmade_hazards_gas_leak){
+
+     var inp = document.getElementById("manmade_hazards_gas_leak_rating");
+     var inp2 = document.getElementById("manmade_hazards_gas_leak_rating_");
+     inp.disabled = manmade_hazards_gas_leak.checked ? false : true;
+     inp2.disabled = manmade_hazards_gas_leak.checked ? false : true;
+
+     if(!inp.disabled && !inp2.disabled){
+     inp.focus();
+     inp2.focus();
+    }
+  }
+
+  </script>
 </head>
 
 <body>
@@ -818,10 +1045,520 @@
                     </div>
 
                 </form>
-
-                  
-
                 </div>
+										  
+		<!-- RISK PROFILING -->
+                <div id="Risk Profiling" class="tabcontent">
+                  <form>
+
+                  <br><br><h3> Risk Profiling </h3><hr><br>
+
+                  <div class="form-group">
+                    <div class="table-responsive">
+                      <table class="table table-border">
+                      <thead>
+                        <tr>
+                          <th colspan="4" class="txt-center info table-border"><strong>A. Geological Hazards</strong></th>
+                        </tr>
+                        <tr>
+                          <th class="table-border"></th>
+                          <th class="table-border">Phenomenon</th>
+                          <th class="table-border">Likelihood</th>
+                          <th class="table-border">Impact</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Ground Shaking" id="geological_hazards_ground_shaking" 
+                            name="geological_hazards_ground_shaking" value="Yes" onclick="hazard_chckbox_grndshaking(this)">
+                          </td>
+                          <td width="35%" class="table-border">Ground Shaking</td>
+                          <td class="table-border">
+                            <select class="form-control" id="geological_hazards_ground_shaking_rating" name="geological_hazards_ground_shaking" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="geological_hazards_ground_shaking" id="geological_hazards_ground_shaking_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Liquifaction" id="geological_hazards_liquifaction" 
+                            name="geological_hazards_liquifaction" value="Yes" onclick="hazard_chckbox_liquifaction(this)">
+                          </td>
+                          <td width="35%" class="table-border">Liquifaction</td>
+                          <td class="table-border">
+                            <select class="form-control" id="geological_hazards_liquifaction_rating" name="geological_hazards_liquifaction_rating" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="geological_hazards_liquifaction_rating" id="geological_hazards_liquifaction_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Ground Rupture" id="geological_hazards_ground_rupture" 
+                            name="geological_hazards_ground_rupture" value="Yes" onclick="hazard_chckbox_grndrupture(this)">
+                          </td>
+                          <td width="35%" class="table-border">Ground Rupture</td>
+                          <td class="table-border">
+                            <select class="form-control" id="geological_hazards_ground_rupture_rating" name="geological_hazards_rupture_shaking" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="geological_hazards_ground_rupture" id="geological_hazards_ground_rupture_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Tsunami" id="geological_hazards_tsunami" 
+                            name="geological_hazards_tsunami" value="Yes" onclick="hazard_chckbox_tsunami(this)">
+                          </td>
+                          <td width="35%" class="table-border">Tsunami</td>
+                          <td class="table-border">
+                            <select class="form-control" id="geological_hazards_tsunami_rating" name="geological_hazards_tsunami" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="geological_hazards_tsunami" id="geological_hazards_tsunami_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Volcanic Hazards" id="geological_hazards_volcanic_hazards" 
+                            name="geological_hazards_volcanic_hazards" value="Yes" onclick="hazard_chckbox_vlcanichazard(this)">
+                          </td>
+                          <td width="35%" class="table-border">Volcanic Hazards</td>
+                          <td class="table-border">
+                            <select class="form-control" id="geological_hazards_volcanic_hazards_rating" name="geological_hazards_volcanic_hazards" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="geological_hazards_volcanic_hazards" id="geological_hazards_volcanic_hazards_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Landslides" id="geological_hazards_landslides" 
+                            name="geological_hazards_landslides" value="Yes" onclick="hazard_chckbox_landslides(this)">
+                          </td>
+                          <td width="35%" class="table-border">Landslides</td>
+                          <td class="table-border">
+                            <select class="form-control" id="geological_hazards_landslides_rating" name="geological_hazards_landslides" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="geological_hazards_landslides" id="geological_hazards_landslides_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                    </div>
+                    
+                    <br></br>
+
+                    <div class="table-responsive">
+                      <table class="table table-border">
+                      <thead>
+                        <tr>
+                          <th colspan="4" class="txt-center info table-border"><strong>B. Hydrometeorological</strong></th>
+                        </tr>
+                        <tr>
+                          <th class="table-border"></th>
+                          <th class="table-border">Phenomenon</th>
+                          <th class="table-border">Likelihood</th>
+                          <th class="table-border">Impact</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Tropical Cyclone" id="hydrometeorological_hazards_tropical_cyclone" 
+                            name="hydrometeorological_hazards_tropical_cyclone" value="Yes" onclick="hazard_chckbox_trpicalcyclone(this)">
+                          </td>
+                          <td width="35%" class="table-border">Tropical Cyclone</td>
+                          <td class="table-border">
+                            <select class="form-control" id="hydrometeorological_hazards_tropical_cyclone_rating" name="hydrometeorological_hazards_tropical_cyclone" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="hydrometeorological_hazards_tropical_cyclone" id="hydrometeorological_hazards_tropical_cyclone_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Floods" id="hydrometeorological_hazards_floods" 
+                            name="hydrometeorological_hazards_floods" value="Yes" onclick="hazard_chckbox_floods(this)">
+                          </td>
+                          <td width="35%" class="table-border">Floods</td>
+                          <td class="table-border">
+                            <select class="form-control" id="hydrometeorological_hazards_floods_rating" name="hydrometeorological_hazards_floods_rating" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="hydrometeorological_hazards_floods_rating" id="hydrometeorological_hazards_floods_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Storm Surge" id="hydrometeorological_hazards_storm_surge" 
+                            name="hydrometeorological_hazards_storm_surge" value="Yes" onclick="hazard_chckbox_strmsurge(this)">
+                          </td>
+                          <td width="35%" class="table-border">Storm Surge</td>
+                          <td class="table-border">
+                            <select class="form-control" id="hydrometeorological_hazards_storm_surge_rating" name="hydrometeorological_hazards_storm_surge" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="hydrometeorological_hazards_storm_surge" id="hydrometeorological_hazards_storm_surge_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Rain Induced Landslide" id="hydrometeorological_hazards_rain_landslide" 
+                            name="hydrometeorological_hazards_rain_landslide" value="Yes" onclick="hazard_chckbox_rainlndslide(this)">
+                          </td>
+                          <td width="35%" class="table-border">Rain Induced Landslide</td>
+                          <td class="table-border">
+                            <select class="form-control" id="hydrometeorological_hazards_rain_landslide_rating" name="hydrometeorological_hazards_rain_landslide" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="hydrometeorological_hazards_rain_landslide" id="hydrometeorological_hazards_rain_landslide_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </div>
+
+                    <br></br>
+
+                    <div class="table-responsive">
+                      <table class="table table-border">
+                      <thead>
+                        <tr>
+                          <th colspan="4" class="txt-center info table-border"><strong>C. Man-made Hazards</strong></th>
+                        </tr>
+                        <tr>
+                          <th class="table-border"></th>
+                          <th class="table-border">Phenomenon</th>
+                          <th class="table-border">Likelihood</th>
+                          <th class="table-border">Impact</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Terrorism" id="manmade_hazards_terrorism" 
+                            name="manmade_hazards_terrorism" value="Yes" onclick="hazard_chckbox_terrorism(this)">
+                          </td>
+                          <td width="35%" class="table-border">Terrorism</td>
+                          <td class="table-border">
+                            <select class="form-control" id="manmade_hazards_terrorism_rating" name="manmade_hazards_terrorism" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="manmade_hazards_terrorism" id="manmade_hazards_terrorism_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Civil Disturbance" id="manmade_hazards_civil_disturbance" 
+                            name="manmade_hazards_civil_disturbance" value="Yes" onclick="hazard_chckbox_civil_disturbance(this)">
+                          </td>
+                          <td width="35%" class="table-border">Civil Disturbance</td>
+                          <td class="table-border">
+                            <select class="form-control" id="manmade_hazards_civil_disturbance_rating" name="manmade_hazards_civil_disturbance" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="manmade_hazards_civil_disturbance" id="manmade_hazards_civil_disturbance_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Cyber Attack" id="manmade_hazards_cyber_attk" 
+                            name="manmade_hazards_cyber-attk" value="Yes" onclick="hazard_chckbox_cyberattk(this)">
+                          </td>
+                          <td width="35%" class="table-border">Cyber Attack</td>
+                          <td class="table-border">
+                            <select class="form-control" id="manmade_hazards_cyber_attk_rating" name="manmade_hazards_cyber_attk" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="manmade_hazards_cyber_attk" id="manmade_hazards_cyber_attk_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Hazardous Material Exposure" id="manmade_hazards_hazardous_material" 
+                            name="manmade_hazards_hazardous_material" value="Yes" onclick="hazard_chckbox_hazardousmaterial(this)">
+                          </td>
+                          <td width="35%" class="table-border">Hazardous Material Exposure</td>
+                          <td class="table-border">
+                            <select class="form-control" id="manmade_hazards_hazardous_material_rating" name="manmade_hazards_hazardous_material" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="manmade_hazards_hazardous_material" id="manmade_hazards_hazardous_material_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Chemical Spills" id="manmade_hazards_chemical_spill" 
+                            name="manmade_hazards_chemical_spill" value="Yes" onclick="hazard_chckbox_chemspill(this)">
+                          </td>
+                          <td width="35%" class="table-border">Chemical Spill</td>
+                          <td class="table-border">
+                            <select class="form-control" id="manmade_hazards_chemical_spill_rating" name="manmade_hazards_chemical_spill" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="manmade_hazards_chemical_spill" id="manmade_hazards_chemical_spill_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Oil Spills" id="manmade_hazards_oil_spill" 
+                            name="manmade_hazards_oil_spill" value="Yes" onclick="hazard_chckbox_oilspill(this)">
+                          </td>
+                          <td width="35%" class="table-border">Oil Spill</td>
+                          <td class="table-border">
+                            <select class="form-control" id="manmade_hazards_oil_spill_rating" name="manmade_hazards_oil_spill" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="manmade_hazards_oil_spill" id="manmade_hazards_oil_spill_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td width="5%" class="table-border">
+                            <input type="checkbox" class="hazards" data-value="Gas Leak" id="manmade_hazards_gas_leak" 
+                            name="manmade_hazards_gas_leak" value="Yes" onclick="hazard_chckbox_gasleak(this)">
+                          </td>
+                          <td width="35%" class="table-border">Gas Leak</td>
+                          <td class="table-border">
+                            <select class="form-control" id="manmade_hazards_gas_leak_rating" name="manmade_hazards_gas_leak" disabled="disabled">
+                              <option value="Almost Certain">Almost Certain</option>
+                              <option  value="Likely">Likely</option>
+                              <option  value="Possible">Possible</option>
+                              <option  value="Unlikely">Unlikely</option>
+                              <option  value="Rare">Rare</option>
+                            </select>
+                          </td>
+                          <td class="table-border">
+                            <select class="form-control" name="manmade_hazards_gas_leak" id="manmade_hazards_gas_leak_rating_" disabled="disabled">
+                              <option  value="Negligible">Negligible</option>
+                              <option  value="Minor">Minor</option>
+                              <option  value="Moderate">Moderate</option>
+                              <option  value="Significant">Significant</option>
+                              <option  value="Severe">Severe</option>
+                            </select>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </div>
+
+
+                  </div>
+                </form>
+                </div>
+                
+
+                <!-- Next form-->
 
                 <!-- APARM -->
                 <div id="APARM" class="tabcontent">
